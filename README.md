@@ -1,4 +1,4 @@
-# Spotify Clone in React 🔥
+# Spotify Clone
 
 -> Spotify clone in React using spotify API. 
 
@@ -6,4 +6,4 @@
 
   * Javascript
   * React.js
-  * HTML, Css
+  * HTML, CSS
