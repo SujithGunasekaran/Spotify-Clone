@@ -1,0 +1,39 @@
+.login-main
+{
+    background-color: black;
+    min-height: 100vh;
+}
+.login-image
+{
+    width : 100%;
+}
+.login-btn
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding : 7px 25px;
+    background-color: #1db954;
+    color : white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    letter-spacing: 0.030rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s all ease-in-out;
+}
+.login-btn a
+{
+    color: white;
+    text-decoration: none;
+}
+.login-btn:hover{
+    background-color: #18a549;
+    cursor: pointer;
+}
+.login-btn:focus
+{
+    outline: none;
+}

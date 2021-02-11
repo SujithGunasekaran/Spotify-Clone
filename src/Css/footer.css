@@ -1,0 +1,102 @@
+.footer-main
+{
+    position: fixed;
+    bottom: 0;
+    width : 100%;
+    background-color: #181818;
+    border-top: 1px solid #282828;
+    color : white;
+}
+.footer-main-container
+{
+    display: flex;
+    padding : 15px 20px;
+    justify-content: space-between;
+}
+.footer-image-container
+{
+    display: flex;
+    flex-direction: row;
+}
+.footer-song-image
+{
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 6px;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+}
+.footer-song-name-container
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer-song-name
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color : rgb(255, 255, 255);
+    padding : 5px 10px;
+    font-size: 0.800rem;
+}
+.footer-song-artist-name
+{
+    font-weight: 400;
+    color : rgb(255, 255, 255);
+    padding : 4px 10px;
+    letter-spacing: 0.020rem;
+    font-size: 0.800rem;
+}
+.footer-song-player-control
+{
+    display: flex;
+}
+.footer-song-track-child
+{
+    width: 500px;
+    flex-flow: row nowrap
+}
+.footer-song-track-info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-song-track-backbtn
+{
+    margin-right: 25px;
+    color : rgb(153, 150, 150);
+}
+.footer-song-track-nextbtn
+{
+    margin-left: 25px;
+    color : rgb(153, 150, 150);
+}
+.footer-song-track-duration
+{
+    width: 100%;
+    margin-top: 15px;
+    border: 2px solid rgb(99, 97, 97);
+    border-radius: 6px;
+}
+.footer-sound-track-playbtn
+{
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    width : 30px;
+    color : black !important;
+    padding-top: 1px;
+    height : 30px;
+}
+.footer-song-track-control-container
+{
+    display: flex;
+    align-items: center;
+}
+.footer-song-track-queue
+{
+    margin-right: 15px;
+    color : grey;
+    font-size: 20px !important;
+}

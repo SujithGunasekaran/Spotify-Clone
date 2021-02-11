@@ -1,0 +1,80 @@
+.header-main
+{
+    padding : 15px 25px 20px 15px;
+    transition: 0.5s all ease-in-out;
+    display: flex;
+}
+.header-background
+{
+    background-color: black !important;
+    transition: 0.5s all ease-in-out;
+}
+.header-arrow-container
+{
+    padding : 0px 10px;
+    display: flex;
+}
+.header-left-arrow
+{
+    background-color: black;
+    border-radius: 50%;
+    width: 36px;
+    height : 36px;
+    padding-top: 1px;
+    text-align: center !important;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+.header-right-arrow
+{
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 50%;
+    width: 30px;
+    height : 30px;
+    padding-top: 1px;
+    text-align: center !important;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+.header-user-profile
+{
+    margin-left: auto;
+}
+.header-user-profile-container
+{
+    background-color: black;
+    padding : 3px 15px 3px 3px;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+}
+.header-user-icon
+{
+    font-size: 1.7rem !important;
+    color : rgb(161, 158, 158) !important;
+}
+.header-user-client-id
+{
+    padding: 0px 10px 0px 5px;
+    font-size: 0.800rem;
+    font-weight: 700;
+    letter-spacing: 0.010rem;
+}
+.header-user-dropdown
+{
+    display: none;
+    position: absolute;
+    border-radius: 6px;
+    background-color: black;
+    width: 200px;
+}
+.header-user-logout
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color : rgb(168, 165, 165);
+    padding : 15px 10px;
+    font-size: .900rem;
+    cursor: pointer;
+}

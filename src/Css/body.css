@@ -1,0 +1,9 @@
+.body-main
+{
+    width : 100%;
+    background-color: rgb(24, 23, 23);
+    background : linear-gradient(rgba(17, 16, 16, 0));
+    margin-left: 250px;
+    min-height: 100vh;
+    color : white;
+}

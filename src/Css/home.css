@@ -1,0 +1,11 @@
+.home-main-container
+{
+    color : white;
+}
+.header-sticky
+{
+    position: sticky;
+    position: -webkit-sticky;
+    top : 0;
+    bottom: 0;
+}
