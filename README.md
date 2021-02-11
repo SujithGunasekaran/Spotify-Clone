@@ -1,6 +1,6 @@
-<h1>Spotify Clone</h1>
-
 # Spotify Clone in React 🔥
+
+-> Spotify clone in React using spotify API. 
 
 # Tech Stack 🛠
 
